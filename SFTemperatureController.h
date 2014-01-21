@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface SFTemperatureController : UIViewController <CLLocationManagerDelegate>
+@interface SFTemperatureController : UIViewController <CLLocationManagerDelegate, UITextFieldDelegate>
 {
 CLLocationManager *locationManager;
 }
@@ -18,7 +18,12 @@ CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet UITextField *inputValueTextField;
 @property (weak, nonatomic) IBOutlet UIButton *currentLocationButton;
 @property (weak, nonatomic) IBOutlet UILabel *outputLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *weatherImage;
+@property (weak, nonatomic) IBOutlet UILabel *cityNameLabel;
 
 
 - (IBAction)getCurrentLocationTemp:(id)sender;
+- (IBAction) onDoneButton:(id)sender;
+- (IBAction)converFromSegementValueChanged:(id)sender;
+
 @end

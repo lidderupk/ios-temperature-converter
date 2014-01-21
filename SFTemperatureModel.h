@@ -18,6 +18,8 @@ enum TEMPERATURE_TYPE{
 @interface SFTemperatureModel : NSObject
 @property (readwrite, assign) float value;
 @property (nonatomic, assign) enum TEMPERATURE_TYPE temperatureType;
+@property (nonatomic, strong) NSString *iconURL;
+@property (nonatomic, strong) NSString *name;
 
 - (SFTemperatureModel*) initWithTemperature:(enum TEMPERATURE_TYPE)tempType value:(float)valueIn;
 - (SFTemperatureModel*) convertTemperature:(enum TEMPERATURE_TYPE)to;
