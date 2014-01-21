@@ -12,7 +12,7 @@ The Temperature converter was built as part of the [Ios CodePath iOS Mobile Boot
 <img src="http://i.imgur.com/kbfbx1Z.png" height="545" />
 <br/>
 
-In addition to manually entering the temperature, the user can use the "Use current location" button to pre fill the input box with the current temperature for their city. The app gets the temperature in Celcius or Fahrenheit based on the "Conver From:" choice from the [openweathermap API](http://bugs.openweathermap.org/projects/api/wiki/Api_2_5_weather). The location is obtained from the ios location service.
+In addition to manually entering the temperature, the user can use the "Use current location" button to pre fill the input box with the current temperature for their city. The app gets the temperature in Celcius or Fahrenheit based on the "Conver From:" choice from the [openweathermap API](http://bugs.openweathermap.org/projects/api/wiki/Api_2_5_weather). The app also gets the weather icon from the [openweathermap icon service](http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes) and loads it asynchronously onto the screen. The location is obtained from the ios location service.
 
 <img src="http://i.imgur.com/SeXsTJr.png" height="545" />
 
