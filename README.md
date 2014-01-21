@@ -24,14 +24,14 @@ In addition to manually entering the temperature, the user can use the "Use curr
 * SVProgressHUD library to update the user
 * App icons from [iconfinder](https://www.iconfinder.com/icons/48742/calculator_icon#size=128)
 
-##Concepts Learned:
+##Concepts Learned
 App Delegate
 Interface Builder
 UIViewController and viewDidLoad
 CLLocationManagerDelegate to use iOS location services
 UITextField delegate to implement the done button
 
-## Possible Improvement
+## Possible Improvements
 * Add a settings page for the user to set default temperature type
 * Better layout and graphics (including splash page)
 
